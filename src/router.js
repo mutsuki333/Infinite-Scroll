@@ -10,7 +10,7 @@ export default new Router({
   // base: '/dennyplay', //for deploy
   routes: [
     {
-      path: '/',
+      path: '*',
       name: 'home',
       component: Home
     },
